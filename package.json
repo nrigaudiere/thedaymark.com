@@ -1,0 +1,21 @@
+{
+  "name": "thedaymark.com",
+  "version": "1.0.0",
+  "description": "Daymark Website",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass assets/styles/main.scss dist/main.css",
+    "watch": "sass --watch assets/styles:dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrigaudiere/thedaymark.com.git"
+  },
+  "author": "Nicolas Rigaudiere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nrigaudiere/thedaymark.com/issues"
+  },
+  "homepage": "https://github.com/nrigaudiere/thedaymark.com#readme",
+  "devDependencies": {}
+}
