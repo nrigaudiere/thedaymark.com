@@ -1,0 +1,295 @@
+@font-face {
+  font-family: 'Diamonds';
+  src: url("../assets/fonts/diamonds/DiamondsBlack.eot");
+  src: url("../assets/fonts/diamonds/DiamondsBlack.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/diamonds/DiamondsBlack.woff2") format("woff2"), url("../assets/fonts/diamonds/DiamondsBlack.woff") format("woff"), url("../assets/fonts/diamonds/DiamondsBlack.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline; }
+
+* {
+  box-sizing: inherit; }
+  *:before, *:after {
+    box-sizing: inherit; }
+
+html {
+  font-size: 10px;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Diamonds", Arial, sans-serif, sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1;
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  text-size-adjust: 100%; }
+
+a {
+  text-decoration: none;
+  outline: 0; }
+  a:hover, a:focus, a:active {
+    text-decoration: none;
+    outline: 0; }
+
+ul {
+  padding: 0; }
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  outline: 0; }
+
+input,
+textarea {
+  border: 1px solid #555555;
+  border-radius: 3px;
+  padding: 0.5rem 0 0.5rem 0.8rem;
+  line-height: normal; }
+  input::-ms-input-placeholder, input:-ms-input-placeholder,
+  textarea::-ms-input-placeholder,
+  textarea:-ms-input-placeholder {
+    color: #555555; }
+
+figure {
+  margin: 0; }
+
+select::-ms-expand {
+  display: none; }
+
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000000; }
+
+iframe {
+  border: 0;
+  width: 100%;
+  min-height: 80vh; }
+  iframe body {
+    margin: 0; }
+
+.navbar {
+  height: 8rem; }
+
+li {
+  list-style: none; }
+
+button {
+  outline: none; }
+
+blockquote {
+  border: 0; }
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+body {
+  min-height: 100vh;
+  height: auto;
+  overflow: hidden; }
+
+.background-video {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  top: -2rem;
+  left: 0; }
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  padding-top: 5vh; }
+  main .social-icons,
+  main .ep-available {
+    min-height: 20%; }
+  main .social-icons {
+    align-self: flex-end;
+    padding-right: 1rem;
+    margin-top: 3rem; }
+    main .social-icons .social-icons_links {
+      margin-right: 2rem; }
+      main .social-icons .social-icons_links:hover {
+        opacity: 0.8; }
+  main .title {
+    min-height: 40%;
+    font-size: 8rem;
+    text-transform: uppercase; }
+  main .ep-available {
+    width: 100%; }
+    main .ep-available .ep-available_title {
+      font-size: 4rem;
+      text-transform: uppercase;
+      color: #FFFFFF; }
+    main .ep-available .ep-available_list {
+      display: inline-flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+      padding: 0 15%; }
+      main .ep-available .ep-available_list .ep-available_list__item {
+        margin-top: 4rem; }
+        main .ep-available .ep-available_list .ep-available_list__item:hover {
+          opacity: 0.8; }
+  main .contact {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 30%;
+    font-size: 1.6em;
+    color: #FFFFFF; }
+    main .contact h3 {
+      margin-bottom: 1rem; }
+    main .contact a {
+      color: #FFFFFF;
+      margin: 1em 0; }
+      main .contact a:hover {
+        opacity: 0.8; }
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 16px; }
+    html .contact {
+      font-size: 1em; } }
+@media screen and (max-width: 1024px) {
+  .background-video {
+    top: 0;
+    height: 100%;
+    width: auto; }
+
+  main .ep-available .ep-available_list {
+    padding: 0;
+    flex-wrap: wrap; } }
+
+/*# sourceMappingURL=main.css.map */
