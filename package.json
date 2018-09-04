@@ -1,21 +1,15 @@
 {
-  "name": "thedaymark.com",
-  "version": "1.0.0",
-  "description": "Daymark Website",
-  "main": "index.js",
+  "name": "gatsby-starter-hello-world",
+  "description": "Gatsby hello world starter",
+  "license": "MIT",
   "scripts": {
-    "build": "sass assets/styles/main.scss dist/main.css",
-    "watch": "sass --watch assets/styles:dist/"
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nrigaudiere/thedaymark.com.git"
-  },
-  "author": "Nicolas Rigaudiere",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nrigaudiere/thedaymark.com/issues"
-  },
-  "homepage": "https://github.com/nrigaudiere/thedaymark.com#readme",
-  "devDependencies": {}
+  "dependencies": {
+    "gatsby": "next",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
 }
