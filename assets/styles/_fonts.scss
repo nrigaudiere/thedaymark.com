@@ -1,10 +1,11 @@
 @font-face {
-  font-family: 'Diamonds';
-  src: url('../assets/fonts/diamonds/DiamondsBlack.eot');
-  src: url('../assets/fonts/diamonds/DiamondsBlack.eot?#iefix') format('embedded-opentype'),
-       url('../assets/fonts/diamonds/DiamondsBlack.woff2') format('woff2'),
-       url('../assets/fonts/diamonds/DiamondsBlack.woff') format('woff'),
-       url('../assets/fonts/diamonds/DiamondsBlack.ttf') format('truetype');
-  font-weight: 900;
+  font-family: 'Futura Bk';
+  src: url('../assets/fonts/futura/Futura-Book.eot');
+  src: url('../assets/fonts/futura/Futura-Book.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/futura/Futura-Book.woff2') format('woff2'),
+      url('../assets/fonts/futura/Futura-Book.woff') format('woff'),
+      url('../assets/fonts/futura/Futura-Book.ttf') format('truetype'),
+      url('../assets/fonts/futura/Futura-Book.svg#Futura-Book') format('svg');
+  font-weight: normal;
   font-style: normal;
 }
