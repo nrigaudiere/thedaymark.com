@@ -2,3 +2,4 @@ dist/
 .sass-cache/
 .DS_Store
 _content/
+node_modules
