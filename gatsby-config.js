@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    name: `Hello Typescript World!`,
-    tagline: `Gatsby + SASS + Typescript = 💪`
-  },  
+    name: `DAYMARK`,
+    tagline: `DAYMARK`
+  },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-typescript`,
     `gatsby-plugin-tslint`,
