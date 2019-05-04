@@ -3,6 +3,7 @@ import * as React from 'react'
 import Helmet from 'react-helmet'
 
 import * as styles from './Index.module.scss'
+import Home from './Home/Home'
 
 interface IndexPageProps {
   data: {
@@ -29,16 +30,22 @@ export const indexPageQuery = graphql`
 export default class IndexPage extends React.Component<IndexPageProps, {}> {
 
   public render() {
-    const {
-      name,
-      tagline,
-    } = this.props.data.site.siteMetadata
+    const {} = this.props.data.site.siteMetadata
 
     return (
       <div className={styles.daymark}>
-        <Helmet title="DAYMARK" defer={false} />
-        <h1>{name}</h1>
-        <p>{tagline}</p>
+        <Helmet title="DAYMARK" defer={false}>
+          <meta property="og:title" content="DAYMARK" />
+          <meta name="twitter:title" content="DAYMARK" />
+
+          <meta property="og:description" content="" />
+          <meta property="og:image" content="" />
+          <meta property="og:url" content="https://thedaymark.com" />
+
+          <meta name="twitter:description" content="" />
+          <meta name="twitter:image:src" content="https://thedaymark.com" />
+        </Helmet>
+        <Home />
       </div>
     )
   }
