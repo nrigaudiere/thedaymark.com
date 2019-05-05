@@ -1,0 +1,10 @@
+@import './../variables';
+
+.footer {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1rem;
+  font-size: 0.6rem;
+  color: $white;
+  font-weight: 100;
+}
