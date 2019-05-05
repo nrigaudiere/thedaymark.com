@@ -8,9 +8,9 @@ export default class Home extends React.Component<HomeProps> {
 
   public render(): JSX.Element {
     return (
-      <div className={ styles.daymarkhome }>
+      <main className={ styles.daymarkhome }>
         DAYMARK
-      </div>
+      </main>
     )
   }
 }

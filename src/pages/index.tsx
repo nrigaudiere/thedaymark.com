@@ -3,7 +3,7 @@ import * as React from 'react'
 import Helmet from 'react-helmet'
 
 import * as styles from './Index.module.scss'
-import Home from './Home/Home'
+import Home from './../components/Home/Home'
 import Footer from './../components/_partials/Footer'
 
 interface IndexPageProps {
