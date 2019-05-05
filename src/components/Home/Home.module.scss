@@ -12,10 +12,24 @@
 .daymarkhome {
   background-position: top left;
   background-size: cover;
-  background-image: url('/images/home-background.jpg');
+  background-image: url('/images/background-home.jpg');
 
   width: 100%;
   min-height: 100vh;
+
+  &::before {
+    background-image: url('/images/background-home__particles.png');
+    background-position: 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.2;
+    background-blend-mode: hard-light;
+    background-color: $white;
+  }
 }
 
 .daymarkTitle {
