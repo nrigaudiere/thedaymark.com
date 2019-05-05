@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 
 import * as styles from './Index.module.scss'
 import Home from './Home/Home'
+import Footer from './../components/_partials/Footer'
 
 interface IndexPageProps {
   data: {
@@ -46,6 +47,7 @@ export default class IndexPage extends React.Component<IndexPageProps, {}> {
           <meta name="twitter:image:src" content="https://thedaymark.com" />
         </Helmet>
         <Home />
+        <Footer />
       </div>
     )
   }
