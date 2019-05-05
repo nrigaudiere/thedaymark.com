@@ -54,7 +54,7 @@ rules:
   class-name-format:
     - 1
     -
-      convention: strictbem
+      convention: camelcase
   function-name-format: 1
   id-name-format: 0
   mixin-name-format: 1

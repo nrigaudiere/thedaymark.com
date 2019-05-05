@@ -34,7 +34,7 @@ export default class IndexPage extends React.Component<IndexPageProps, {}> {
     const {} = this.props.data.site.siteMetadata
 
     return (
-      <div className={styles.daymark}>
+      <div className={ styles.daymark }>
         <Helmet title="DAYMARK" defer={false}>
           <meta property="og:title" content="DAYMARK" />
           <meta name="twitter:title" content="DAYMARK" />
