@@ -1,3 +1,14 @@
+@import './../../styles/variables';
+
+%titles {
+  margin: 0;
+  color: $white;
+  letter-spacing: 30px;
+  font-weight: 100;
+  text-align: center;
+  text-shadow: 1px 1px 4px transparentize($black, 0.9);
+}
+
 .daymarkhome {
   background-position: top left;
   background-size: cover;
@@ -5,4 +16,16 @@
 
   width: 100%;
   min-height: 100vh;
+}
+
+.daymarktitle {
+  @extend %titles;
+  padding-top: 8rem;
+  font-size: 3rem;
+}
+
+.daymarksubtitle {
+  @extend %titles;
+  font-size: 2rem;
+  margin-top: 2.5rem;
 }
