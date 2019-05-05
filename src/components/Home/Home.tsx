@@ -9,7 +9,8 @@ export default class Home extends React.Component<HomeProps> {
   public render(): JSX.Element {
     return (
       <main className={ styles.daymarkhome }>
-        DAYMARK
+        <h1 className={ styles.daymarktitle }>DAYMARK</h1>
+        <h2 className={ styles.daymarksubtitle }>PHARE NEW EP</h2>
       </main>
     )
   }
