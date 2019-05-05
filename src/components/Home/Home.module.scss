@@ -18,13 +18,13 @@
   min-height: 100vh;
 }
 
-.daymarktitle {
+.daymarkTitle {
   @extend %titles;
   padding-top: 8rem;
   font-size: 3rem;
 }
 
-.daymarksubtitle {
+.daymarkSubtitle {
   @extend %titles;
   font-size: 2rem;
   margin-top: 2.5rem;
