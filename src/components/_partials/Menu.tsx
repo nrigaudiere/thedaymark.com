@@ -9,10 +9,10 @@ export default class Menu extends React.Component<MenuProps> {
   }
 
   public render(): JSX.Element {
-    const now = Date.now()
-
     return (
       <aside className={ MenuStyles.menu }>
+        <Link to="/bio">Bio</Link>
+        <Link to="/videos">Videos</Link>
         <Link to="/images">Images</Link>
       </aside>
     )

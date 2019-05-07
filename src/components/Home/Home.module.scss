@@ -1,12 +1,9 @@
-@import './../../styles/variables';
+@import './../../styles/app';
 
 %titles {
-  margin: 0;
-  color: $white;
+  @extend %main-text;
   letter-spacing: 30px;
-  font-weight: 100;
   text-align: center;
-  text-shadow: 1px 1px 4px transparentize($black, 0.9);
 }
 
 .daymarkhome {
