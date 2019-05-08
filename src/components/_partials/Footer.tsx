@@ -12,7 +12,9 @@ export default class Footer extends React.Component<FooterProps> {
 
     return (
       <footer className={ FooterStyles.footer }>
-        Copyright © { new Date(now).getFullYear() } DAYMARK
+        <span className={ FooterStyles.copyright }>
+          Copyright © { new Date(now).getFullYear() } DAYMARK
+        </span>
       </footer>
     )
   }

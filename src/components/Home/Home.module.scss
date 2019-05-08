@@ -12,13 +12,9 @@
 }
 
 .daymarkhome {
-  background-position: center center;
-  background-size: cover;
+  @extend %backgrounds;
   background-image: url('/images/background-home.jpg');
   overflow: hidden;
-
-  width: 100%;
-  min-height: 100vh;
 }
 
 .daymarkTitle {
