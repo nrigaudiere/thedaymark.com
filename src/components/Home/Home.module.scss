@@ -2,43 +2,23 @@
 
 %titles {
   @extend %main-text;
+  @include media-query(mobile) {
+    letter-spacing: 20px;
+  }
+
   letter-spacing: 30px;
   text-align: center;
+  z-index: 1;
 }
 
 .daymarkhome {
-  background-position: top left;
+  background-position: center center;
   background-size: cover;
   background-image: url('/images/background-home.jpg');
   overflow: hidden;
 
   width: 100%;
   min-height: 100vh;
-
-  &::before {
-    content: '';
-    background-image: url('/images/background-home__particles.png');
-    background-position: 0 0;
-    background-size: cover;
-    position: fixed;
-
-    top: 50%;
-    left: 50%;
-    right: auto;
-    bottom: auto;
-
-    z-index: 1;
-    opacity: 0.2;
-    background-blend-mode: hard-light;
-    background-color: $white;
-
-    width: 110%;
-    height: 110%;
-
-    will-change: auto;
-    transform: translate3d(-50%, -50%, 0);
-    animation: fluid-move 13s ease-in-out infinite alternate;
-  }
 }
 
 .daymarkTitle {
@@ -51,4 +31,29 @@
   @extend %titles;
   font-size: 2rem;
   margin-top: 2.5rem;
+}
+
+.overlay {
+  background-image: url('/images/background-home__particles.png');
+  background-position: 0 0;
+  background-size: cover;
+  position: fixed;
+  pointer-events: none;
+
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+
+  z-index: 0;
+  opacity: 0.2;
+  background-blend-mode: hard-light;
+  background-color: $white;
+
+  width: 110%;
+  height: 110%;
+
+  will-change: auto;
+  transform: translate3d(-50%, -50%, 0);
+  animation: fluid-move 13s ease-in-out infinite alternate;
 }
