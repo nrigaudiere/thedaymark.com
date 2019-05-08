@@ -1,0 +1,15 @@
+@import './../app';
+
+.daymarkbio {
+  @extend %backgrounds;
+  @extend %layout;
+  background-image: url('/images/background-bio.jpg');
+  background-color: transparentize($black, 0.7);
+  background-blend-mode: hard-light;
+
+  h1,
+  p {
+    @extend %main-text;
+    word-break: break-word;
+  }
+}
