@@ -9,6 +9,7 @@
 
   bottom: 1rem;
   font-size: 1.2rem;
+  z-index: 1;
 
   a {
     @extend %main-text;
