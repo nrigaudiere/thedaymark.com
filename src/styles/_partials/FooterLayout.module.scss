@@ -1,0 +1,36 @@
+@import './../app';
+
+.footerLayout {
+  @extend %main-text;
+  position: absolute;
+  bottom: 0.5rem;
+  padding: 0 1rem;
+  width: 100%;
+  color: $white;
+  font-weight: 100;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.copyright {
+  font-size: 0.6rem;
+  letter-spacing: 3px;
+}
+
+.back {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    @extend %menu-link;
+    letter-spacing: 8px;
+    font-size: 0.8rem;
+    margin-left: 1rem;
+  }
+}
