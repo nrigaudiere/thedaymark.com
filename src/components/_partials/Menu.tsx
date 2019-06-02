@@ -12,6 +12,7 @@ export default class Menu extends React.Component<MenuProps> {
     return (
       <aside className={ MenuStyles.menu }>
         <Link to="/bio">Bio</Link>
+        <Link to="/music">Music</Link>
         <Link to="/videos">Videos</Link>
         <Link to="/images">Images</Link>
       </aside>
