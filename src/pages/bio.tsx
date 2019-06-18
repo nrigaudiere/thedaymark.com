@@ -24,7 +24,7 @@ export default class Bio extends React.Component<BioProps> {
             "Massive" & "Looking Above" - as well as a live version of this last track shot at the Arab World Institute in Paris.
             <br />
             <br />
-            Daymark will realease on 17.04.19 the clip of "Reaching", the first single from the second EP of the group to be released in mid-June.
+            Daymark will release on 17.04.19 the clip of "Reaching", the first single from the second EP of the group to be released in mid-June.
           </p>
         </main>
         <FooterLayout />
