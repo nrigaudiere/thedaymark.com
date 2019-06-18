@@ -9,15 +9,12 @@
 
   h1,
   p {
-    @extend %main-text;
     word-break: break-word;
     line-height: 2.4;
   }
 
   h1 {
-    font-size: 3rem;
-    letter-spacing: 11px;
-    margin-bottom: 2rem;
+    @extend %page-title;
   }
 
   @include media-query(mobile) {

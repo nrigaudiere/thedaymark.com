@@ -2,7 +2,7 @@ import * as React from 'react'
 
 import FooterLayout from './../components/_partials/FooterLayout'
 
-import * as styles from './../styles/pages/Bio.module.scss'
+import * as BioStyles from './../styles/pages/Bio.module.scss'
 
 export default class Bio extends React.Component<BioProps> {
   constructor(props: BioProps) {
@@ -12,7 +12,7 @@ export default class Bio extends React.Component<BioProps> {
   public render(): JSX.Element {
     return (
       <>
-        <main className={ styles.daymarkbio }>
+        <main className={ BioStyles.daymarkbio }>
           <h1>Bio</h1>
           <p>
             DAYMARK was born with the meeting of 2 musicians/producers coming from the electro-pop Paris scene and the film music business (through the signing of several soundtracks for Netflix, M6...).
