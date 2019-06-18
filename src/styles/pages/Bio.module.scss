@@ -19,4 +19,13 @@
     letter-spacing: 11px;
     margin-bottom: 2rem;
   }
+
+  @include media-query(mobile) {
+    padding: 3rem;
+
+    p {
+      height: 65vh;
+      overflow: auto;
+    }
+  }
 }
