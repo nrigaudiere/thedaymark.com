@@ -17,6 +17,10 @@
     @extend %page-title;
   }
 
+  p {
+    @extend %main-text;
+  }
+
   @include media-query(mobile) {
     padding: 3rem;
 
