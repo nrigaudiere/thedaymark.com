@@ -25,3 +25,10 @@
   text-transform: uppercase;
   letter-spacing: 11px;
 }
+
+%page-title {
+  @extend %main-text;
+  font-size: 3rem;
+  letter-spacing: 11px;
+  margin-bottom: 2rem;
+}
