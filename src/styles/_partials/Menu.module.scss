@@ -17,5 +17,12 @@
     line-height: 2.5;
     text-transform: uppercase;
     letter-spacing: 11px;
+
+    color: $white;
+    transition: color 250ms ease-in-out;
+
+    &:hover {
+      color: $hover;
+    }
   }
 }
