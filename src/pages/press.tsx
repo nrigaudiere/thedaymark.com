@@ -2,6 +2,8 @@ import * as React from 'react'
 
 import FooterLayout from './../components/_partials/FooterLayout'
 
+import * as PressStyles from './../styles/pages/Press.module.scss'
+
 export default class Press extends React.Component<PressProps> {
   constructor(props: PressProps) {
     super(props)
@@ -10,8 +12,10 @@ export default class Press extends React.Component<PressProps> {
   public render(): JSX.Element {
     return (
       <>
-        <main>
+        <main className={ PressStyles.daymarkpress }>
           <h1>Press</h1>
+          <div className={ PressStyles.pressList }>
+          </div>
         </main>
         <FooterLayout />
       </>
