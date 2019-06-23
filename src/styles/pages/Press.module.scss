@@ -1,0 +1,20 @@
+@import './../app';
+
+.daymarkpress {
+  @extend %backgrounds;
+  @extend %layout;
+  background-image: url('/images/background-press.jpg');
+  background-color: transparentize($black, 0.7);
+  background-blend-mode: hard-light;
+
+  h1 {
+    @extend %page-title;
+  }
+}
+
+.pressList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
