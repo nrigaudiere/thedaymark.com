@@ -10,5 +10,13 @@ module.exports = {
     `gatsby-plugin-typescript`,
     `gatsby-plugin-tslint`,
     `gatsby-plugin-transition-link`,
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        typeName: 'Json',
+        path: './src/data/',
+      },
+    },
+
   ],
 }
