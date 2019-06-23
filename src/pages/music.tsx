@@ -2,7 +2,7 @@ import * as React from 'react'
 
 import FooterLayout from './../components/_partials/FooterLayout'
 
-import * as MusicStyles from './../styles/pages/Press.module.scss'
+import * as MusicStyles from './../styles/pages/Music.module.scss'
 
 export default class Music extends React.Component<MusicProps> {
   constructor(props: MusicProps) {
@@ -14,8 +14,8 @@ export default class Music extends React.Component<MusicProps> {
       <>
         <main className={ MusicStyles.daymarkmusic }>
           <h1 className={ MusicStyles.musicList }>Music</h1>
-          <FooterLayout />
         </main>
+        <FooterLayout />
       </>
     )
   }
