@@ -18,3 +18,21 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+.musicItem {
+  width: 46%;
+  margin: 0 2%;
+  text-align: center;
+
+  img {
+    width: 12rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@include media-query(mobile) {
+  .musicItem {
+    width: 100%;
+    margin: 0;
+  }
+}
