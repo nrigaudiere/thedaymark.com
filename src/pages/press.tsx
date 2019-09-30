@@ -8,15 +8,15 @@ import * as PressStyles from './../styles/pages/Press.module.scss'
 
 const articles = graphql`
   query ArticlesQuery {
-   articles: allArticlesJson {
-     edges {
-       node {
-         id
-         blockquote
-         link
-       }
-     }
-   }
+    articles: allArticlesJson {
+      edges {
+        node {
+          id
+          blockquote
+          link
+        }
+      }
+    }
   }
 `
 
@@ -52,7 +52,6 @@ export default class Press extends React.Component<PressProps> {
     )
   }
 }
-
 
 interface PressProps {
   data: {

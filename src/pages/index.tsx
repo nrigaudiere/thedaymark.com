@@ -8,6 +8,8 @@ import Menu from './../components/_partials/Menu'
 import Footer from './../components/_partials/Footer'
 import { Favicon } from './../components/_partials/Favicon'
 
+import { MetaHelper } from '@daymark/helpers/Meta.helper'
+
 interface IndexPageProps {
   data: {
     site: {
@@ -37,16 +39,16 @@ export default class IndexPage extends React.Component<IndexPageProps, {}> {
 
     return (
       <div className={ styles.daymark }>
-        <Helmet title="DAYMARK | Electro-Rock" defer={false}>
-          <meta property="og:title" content="DAYMARK | Electro-Rock" />
-          <meta name="twitter:title" content="DAYMARK | Electro-Rock" />
+        <Helmet title={ `${ MetaHelper.SITE_NAME } | Electro-Rock` } defer={false}>
+          <meta property="og:title" content={ `${ MetaHelper.SITE_NAME } | Electro-Rock` } />
+          <meta name="twitter:title" content={ `${ MetaHelper.SITE_NAME } | Electro-Rock` } />
 
           <meta property="og:description" content="" />
           <meta property="og:image" content="" />
-          <meta property="og:url" content="https://thedaymark.com" />
+          <meta property="og:url" content={ MetaHelper.SITE_URL } />
 
           <meta name="twitter:description" content="" />
-          <meta name="twitter:image:src" content="https://thedaymark.com" />
+          <meta name="twitter:image:src" content={ MetaHelper.SITE_URL } />
           { Favicon }
         </Helmet>
         <Menu />
