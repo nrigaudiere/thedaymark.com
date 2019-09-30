@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@babel/core": "7.3.4",
+    "@types/react-helmet": "5.0.11",
     "bulma": "0.7.5",
     "gatsby": "2.1.20",
     "gatsby-plugin-react-helmet": "3.0.12",
