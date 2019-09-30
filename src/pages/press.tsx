@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { graphql, StaticQuery } from 'gatsby'
 
+import { Head } from './../components/_partials/Head'
 import FooterLayout from './../components/_partials/FooterLayout'
 import { ArticleEdge } from './../types/Article'
 
@@ -32,6 +33,7 @@ export default class Press extends React.Component<PressProps> {
         render= {
           data => (
             <>
+              <Head title="Press"/>
               <main className={ PressStyles.daymarkpress }>
                 <h1>Press</h1>
                 <div className={ PressStyles.pressList }>

@@ -1,5 +1,6 @@
 import * as React from 'react'
 
+import { Head } from './../components/_partials/Head'
 import FooterLayout from './../components/_partials/FooterLayout'
 
 import * as BioStyles from './../styles/pages/Bio.module.scss'
@@ -12,6 +13,7 @@ export default class Bio extends React.Component<BioProps> {
   public render(): JSX.Element {
     return (
       <>
+        <Head title="Bio"/>
         <main className={ BioStyles.daymarkbio }>
           <h1>Bio</h1>
           <p>
