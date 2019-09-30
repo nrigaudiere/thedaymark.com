@@ -19,7 +19,26 @@
 
 .pressList {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.pressItem {
+  width: 46%;
+  margin: 0 2%;
+  text-align: center;
+
+  img {
+    width: 10rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@include media-query(mobile) {
+  .pressItem {
+    width: 100%;
+    margin: 0;
+  }
 }

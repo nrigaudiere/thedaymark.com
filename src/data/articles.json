@@ -1,17 +1,20 @@
 [
   {
-    "id": "article1",
+    "id": "LesOreillesCurieuses",
     "blockquote": "Daymark a fait parler d’eux en 2017 avec la parution d’un premier EP chez Gum Club et a fait parler leurs ambiances musicales bien cinématographiques.",
-    "link": "https://lesoreillescurieuses.com/2019/06/14/daymark-phare/?fbclid=IwAR2q0DZyPbLeln2gIIYMt8j3adIkmQOzJr_xddp04q-qbLS9iMHJTI5cTig"
+    "link": "https://lesoreillescurieuses.com/2019/06/14/daymark-phare/?fbclid=IwAR2q0DZyPbLeln2gIIYMt8j3adIkmQOzJr_xddp04q-qbLS9iMHJTI5cTig",
+    "imageURL": "/images/press/lesoreillescurieuses.png"
   },
   {
-    "id": "article2",
+    "id": "BewareMag",
     "blockquote": "Fort de leur expérience sur la scène pop, électro, mais aussi de composition de B.O de films, le duo a su développer des sonorités denses, ainsi qu’une « électro / post-pop » servie par une imagerie très forte empreinte de cinéma, de rêverie et de surréalisme. ",
-    "link": "https://www.bewaremag.com/clip-daymark-spirit/?fbclid=IwAR00taMaQ0jWR54bqWPhwLTPaoZdcBxxjoklqiclKXuwfbmjXQCp0Z31o2w"
+    "link": "https://www.bewaremag.com/clip-daymark-spirit/?fbclid=IwAR00taMaQ0jWR54bqWPhwLTPaoZdcBxxjoklqiclKXuwfbmjXQCp0Z31o2w",
+    "imageURL": "/images/press/bewaremag.png"
   },
   {
-    "id": "article3",
+    "id": "AnotherWhiskyForMisterBukowski",
     "blockquote": "Fort de leur bagage cinématographique, les deux musiciens nous proposent un clip qui invite à la pause. Deux secondes devant et nous voilà embarqués pour un petit voyage.",
-    "link": "https://anotherwhiskyformisterbukowski.com/2019/05/31/daymark-spirit/?fbclid=IwAR2Ld6ees5nN2ibw0S0iV2hRgQ1Tp3t8Az424RFrJMVd55vNtT2oVZq-nzQ"
+    "link": "https://anotherwhiskyformisterbukowski.com/2019/05/31/daymark-spirit/?fbclid=IwAR2Ld6ees5nN2ibw0S0iV2hRgQ1Tp3t8Az424RFrJMVd55vNtT2oVZq-nzQ",
+    "imageURL": "/images/press/anotherwhiskyformisterbukowski.png"
   }
 ]

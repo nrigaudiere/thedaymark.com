@@ -15,6 +15,7 @@ const articles = graphql`
           id
           blockquote
           link
+          imageURL
         }
       }
     }
@@ -39,10 +40,15 @@ export default class Press extends React.Component<PressProps> {
                 <div className={ PressStyles.pressList }>
                   {
                     data.articles.edges.map((articleEdge: ArticleEdge) => (
-                      <blockquote id={ articleEdge.node.id }
-                                  key={ articleEdge.node.id }>
-                                  { articleEdge.node.blockquote }
-                      </blockquote>
+                      <div className={ PressStyles.pressItem }>
+                        <a href={ articleEdge.node.link } target="_blank">
+                          <img src={ articleEdge.node.imageURL } alt={ articleEdge.node.id }/>
+                        </a>
+                        <blockquote id={ articleEdge.node.id }
+                                    key={ articleEdge.node.id }>
+                                    { articleEdge.node.blockquote }
+                        </blockquote>
+                      </div>
                     ))
                   }
                 </div>
