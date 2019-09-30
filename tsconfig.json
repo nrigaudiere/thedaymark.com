@@ -16,6 +16,12 @@
       "ES6",
       "ScriptHost"
     ],
+    "paths": {
+      "@daymark/helpers/*": ["src/helpers/*"],
+      "@daymark/components/*": ["src/components/*"],
+      "@daymark/interfaces/*": ["src/interfaces/*"],
+      "@daymark/pages/*": ["src/pages/*"]
+    },
     "downlevelIteration": true,
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
