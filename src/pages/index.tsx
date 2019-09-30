@@ -2,7 +2,8 @@ import { graphql } from 'gatsby'
 import * as React from 'react'
 import Helmet from 'react-helmet'
 
-import * as styles from './Index.module.scss'
+import * as IndexStyles from './../styles/pages/Index.module.scss'
+
 import Home from './../components/Home/Home'
 import Menu from './../components/_partials/Menu'
 import Footer from './../components/_partials/Footer'
