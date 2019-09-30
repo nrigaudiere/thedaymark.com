@@ -1,6 +1,7 @@
 import * as React from 'react'
 import ReactPlayer from 'react-player'
 
+import { Head } from './../components/_partials/Head'
 import FooterLayout from './../components/_partials/FooterLayout'
 
 import * as VideoStyles from './../styles/pages/Video.module.scss'
@@ -13,6 +14,7 @@ export default class Videos extends React.Component<VideosProps> {
   public render(): JSX.Element {
     return (
       <>
+        <Head title="Videos"/>
         <main className={ VideoStyles.daymarkvideo }>
           <h1>Videos</h1>
           <div className={ VideoStyles.videoList }>
