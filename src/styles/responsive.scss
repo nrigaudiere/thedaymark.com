@@ -1,3 +1,4 @@
+$desktop-hd-min-width: 1536px;
 $desktop-min-width: 1024px;
 $tablets-max-width: 1024px;
 $phones-max-width: 768px;
@@ -9,6 +10,8 @@ $phones-max-width: 768px;
     @media screen and (max-width: $tablets-max-width) { @content; }
   } @else if $size == desktop {
     @media screen and (min-width: $desktop-min-width) { @content; }
+  } @else if $size == hd {
+    @media screen and (min-width: $desktop-hd-min-width) { @content; }
   }
 }
 
@@ -21,5 +24,11 @@ $phones-max-width: 768px;
 @include media-query(tablet) {
   html {
     font-size: 14px;
+  }
+}
+
+@include media-query(hd) {
+  html {
+    font-size: 18px;
   }
 }
