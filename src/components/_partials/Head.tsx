@@ -11,14 +11,14 @@ export function Head(props: HeadProps): JSX.Element {
   return (
     <Helmet title={ title } defer={false}>
       <meta property="og:title" content={ title } />
-      <meta name="twitter:title" content={ title } />
 
       <meta property="og:description" content="" />
-      <meta property="og:image" content="" />
+      <meta property="og:image" content={ MetaHelper.OG_IMG } />
       <meta property="og:url" content={ MetaHelper.SITE_URL } />
 
+      <meta name="twitter:title" content={ title } />
       <meta name="twitter:description" content="" />
-      <meta name="twitter:image:src" content={ MetaHelper.SITE_URL } />
+      <meta name="twitter:image:src" content={ MetaHelper.OG_IMG } />
       { Favicon }
     </Helmet>
   )
