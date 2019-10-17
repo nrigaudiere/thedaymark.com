@@ -6,7 +6,7 @@ import { Favicon } from './Favicon'
 import { MetaHelper } from '@daymark/helpers/Meta.helper'
 
 export function Head(props: HeadProps): JSX.Element {
-  const title = props.title ? `${ props.title } | ${ MetaHelper.SITE_NAME }` : `${ MetaHelper.SITE_NAME } | 'Electro-Rock' }`
+  const title = props.title ? `${ props.title } | ${ MetaHelper.SITE_NAME }` : `${ MetaHelper.SITE_NAME } | Electro-Rock`
 
   return (
     <Helmet title={ title } defer={false}>
