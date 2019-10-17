@@ -1,0 +1,18 @@
+@keyframes fluid-move {
+  0%,
+  100% {
+    transform: translate3d(-50%, -50%, 0);
+  }
+
+  25% {
+    transform: translate3d(-48%, -46%, 0);
+  }
+
+  50% {
+    transform: translate3d(-47%, -46%, 0);
+  }
+
+  75% {
+    transform: translate3d(-48%, -49%, 0);
+  }
+}

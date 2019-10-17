@@ -1,0 +1,14 @@
+@import './../app';
+
+.footer {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1rem;
+  color: $white;
+  font-weight: 100;
+}
+
+.copyright {
+  font-size: 0.6rem;
+  letter-spacing: 3px;
+}

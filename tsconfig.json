@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./public/",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "DOM",
+      "ES5",
+      "ES6",
+      "ScriptHost"
+    ],
+    "paths": {
+      "@daymark/helpers/*": ["src/helpers/*"],
+      "@daymark/components/*": ["src/components/*"],
+      "@daymark/interfaces/*": ["src/interfaces/*"],
+      "@daymark/pages/*": ["src/pages/*"]
+    },
+    "downlevelIteration": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "strict": true
+  }
+}

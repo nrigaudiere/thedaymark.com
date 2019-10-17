@@ -1,0 +1,51 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^thedaymark\.com [NC]
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI}
+
+# BEGIN Cache-Control Headers
+<IfModule mod_headers.c>
+ # Fonts and Icon
+ <FilesMatch "\\.(ico|ttf|otf|eot|woff|woff2)$">
+  Header set Cache-Control "max-age=31536000,public"
+ </FilesMatch>
+ # Images
+ <FilesMatch "\.(jpe?g|png|svg|gif|swf|tiff)$">
+  Header set Cache-Control "max-age=604800, public"
+ </FilesMatch>
+ # Scripts and Stylesheets
+ <FilesMatch "\.(xml|txt|css|js)$">
+  Header set Cache-Control "max-age=172800, proxy-revalidate"
+ </FilesMatch>
+ # Dynamic
+ <FilesMatch "\.(html|htm|php)$">
+  Header set Cache-Control "max-age=60, private, proxy-revalidate"
+ </FilesMatch>
+</IfModule>
+# END Cache-Control Headers
+
+# BEGIN Expire headers
+<IfModule mod_expires.c>
+ ExpiresActive On
+ ExpiresDefault "access plus 7200 seconds"
+ ExpiresByType image/jpg "access plus 2592000 seconds"
+ ExpiresByType image/jpeg "access plus 2592000 seconds"
+ ExpiresByType image/png "access plus 2592000 seconds"
+ ExpiresByType image/gif "access plus 2592000 seconds"
+ AddType image/x-icon .ico
+ ExpiresByType image/ico "access plus 2592000 seconds"
+ ExpiresByType image/icon "access plus 2592000 seconds"
+ ExpiresByType image/x-icon "access plus 2592000 seconds"
+ ExpiresByType text/css "access plus 2592000 seconds"
+ ExpiresByType text/javascript "access plus 2592000 seconds"
+ ExpiresByType text/html "access plus 7200 seconds"
+ ExpiresByType application/xhtml+xml "access plus 7200 seconds"
+ ExpiresByType application/javascript "access 1 month"
+ ExpiresByType video/mp4 "access 1 month"
+ ExpiresByType video/webm "access 1 month"
+ ExpiresByType video/ogg "access 1 month"
+ ExpiresByType application/x-javascript "access plus 2592000 seconds"
+ ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
+ ExpiresDefault "access 1 month"
+</IfModule>
+# END Expire headers

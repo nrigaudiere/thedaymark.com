@@ -1,0 +1,32 @@
+@import './../app';
+
+.daymarkbio {
+  @extend %backgrounds;
+  @extend %layout;
+  background-image: url('/images/background-bio.jpg');
+  background-color: transparentize($black, 0.7);
+  background-blend-mode: hard-light;
+
+  h1,
+  p {
+    word-break: break-word;
+    line-height: 2.4;
+  }
+
+  h1 {
+    @extend %page-title;
+  }
+
+  p {
+    @extend %main-text;
+  }
+
+  @include media-query(mobile) {
+    padding: 3rem;
+
+    p {
+      height: 65vh;
+      overflow: auto;
+    }
+  }
+}

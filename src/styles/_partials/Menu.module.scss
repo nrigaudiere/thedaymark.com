@@ -1,0 +1,28 @@
+@import './../app';
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+
+  left: 1.5rem;
+
+  bottom: 1rem;
+  font-size: 1.2rem;
+  z-index: 1;
+
+  a {
+    @extend %main-text;
+    text-decoration: none;
+    line-height: 2.5;
+    text-transform: uppercase;
+    letter-spacing: 11px;
+
+    color: $white;
+    transition: color 250ms ease-in-out;
+
+    &:hover {
+      color: $hover;
+    }
+  }
+}

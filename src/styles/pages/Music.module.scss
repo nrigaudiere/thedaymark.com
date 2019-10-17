@@ -1,0 +1,39 @@
+@import './../app';
+
+.daymarkmusic {
+  @extend %backgrounds;
+  @extend %layout;
+  background-image: url('/images/background-music.jpg');
+  background-color: transparentize($black, 0.7);
+  background-blend-mode: hard-light;
+
+  h1 {
+    @extend %page-title;
+  }
+}
+
+.musicList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+}
+
+.musicItem {
+  width: 46%;
+  margin: 0 2%;
+  text-align: center;
+
+  img {
+    width: 12rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@include media-query(mobile) {
+  .musicItem {
+    width: 100%;
+    margin: 0;
+  }
+}

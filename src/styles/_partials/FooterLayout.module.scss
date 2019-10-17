@@ -1,0 +1,58 @@
+@import './../app';
+
+.footerLayout {
+  @extend %main-text;
+  position: absolute;
+  bottom: 0.5rem;
+  padding: 0 5%;
+  width: 100%;
+  color: $white;
+  font-weight: 100;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  @include media-query(mobile) {
+    position: fixed;
+  }
+}
+
+.copyright {
+  font-size: 0.6rem;
+  letter-spacing: 3px;
+}
+
+.back {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  color: $white;
+  transition: color 250ms ease-in-out;
+
+  &:hover {
+    color: $hover;
+
+    a {
+      color: $hover;
+    }
+  }
+
+  a {
+    @extend %menu-link;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    letter-spacing: 8px;
+    font-size: 0.8rem;
+    margin-left: 1rem;
+  }
+}
+
+.backArrow {
+  margin-right: 1rem;
+}

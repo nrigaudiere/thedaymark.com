@@ -1,0 +1,48 @@
+@import './../app';
+
+.daymarkpress {
+  @extend %backgrounds;
+  @extend %layout;
+  height: 100vh;
+  background-image: url('/images/background-press.jpg');
+  background-color: transparentize($black, 0.7);
+  background-blend-mode: hard-light;
+
+  h1 {
+    @extend %page-title;
+  }
+
+  blockquote {
+    @extend %main-text;
+    margin-bottom: 4rem;
+  }
+}
+
+.pressList {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+
+  overflow: auto;
+  height: 70vh;
+}
+
+.pressItem {
+  width: 46%;
+  margin: 0 2%;
+  text-align: center;
+
+  img {
+    width: 10rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@include media-query(mobile) {
+  .pressItem {
+    width: 100%;
+    margin: 0;
+  }
+}
