@@ -6,15 +6,57 @@
     "imageURL": "/images/press/lesoreillescurieuses.png"
   },
   {
-    "id": "BewareMag",
-    "blockquote": "Fort de leur expérience sur la scène pop, électro, mais aussi de composition de B.O de films, le duo a su développer des sonorités denses, ainsi qu’une « électro / post-pop » servie par une imagerie très forte empreinte de cinéma, de rêverie et de surréalisme. ",
-    "link": "https://www.bewaremag.com/clip-daymark-spirit/?fbclid=IwAR00taMaQ0jWR54bqWPhwLTPaoZdcBxxjoklqiclKXuwfbmjXQCp0Z31o2w",
-    "imageURL": "/images/press/bewaremag.png"
+    "id": "Tsugi",
+    "blockquote": "Deux ans après DAYMARK, son premier EP, le duo nous livre un court-format plus travaillé. Tandis que les deux premiers titres  s’aventurent sur des terrains plus minimalistes, les deux derniers se réconcilient avec l’exubérance et l’émotion des débuts. Une réussite.",
+    "link": "https://www.tsugi.fr/ca-sort-aujourdhui-vendredi-14-juin/?fbclid=IwAR1lvhbBoK36tH3GIklN7R8ym7Z_9M1bXrlzOnPXhpSHtQBuzxh9YcgiB8o",
+    "imageURL": "/images/press/tsugi.png"
+  },
+  {
+    "id": "LeBombardier",
+    "blockquote": "Renouvelant son attachement pour les sonorités électroniques et les ambiances planantes que l’on peut retrouver sur le premier EP éponyme du duo sorti en 2017, c’est avec une réalisation plus dépouillée que Daymark dessine les accès vers une transe spirituelle trépidante.",
+    "link": "https://lebombardier.fr/daymark-phare/",
+    "imageURL": "/images/press/lebombardier.png"
   },
   {
     "id": "AnotherWhiskyForMisterBukowski",
     "blockquote": "Fort de leur bagage cinématographique, les deux musiciens nous proposent un clip qui invite à la pause. Deux secondes devant et nous voilà embarqués pour un petit voyage.",
     "link": "https://anotherwhiskyformisterbukowski.com/2019/05/31/daymark-spirit/?fbclid=IwAR2Ld6ees5nN2ibw0S0iV2hRgQ1Tp3t8Az424RFrJMVd55vNtT2oVZq-nzQ",
     "imageURL": "/images/press/anotherwhiskyformisterbukowski.png"
+  },
+  {
+    "id": "ArtyParis",
+    "blockquote": " Morceau après morceau, de chants lointains en synthés prenants, le maxi invoque un visuel cinématographique par des mélodies subtiles, quelque part entre Mars et Vénus. Rarement la mélopée des aliens n’aura été aussi belle.",
+    "link": "https://www.artyparis.net/sorties-de-la-semaine-jacques-agoria-basile-di-manski-daymark/",
+    "imageURL": "/images/press/artyparis.png"
+  },
+  {
+    "id": "IndieMusic",
+    "blockquote": "À l’image de ses expérimentations cinématographiques, « Phare » de DAYMARK dépasse tout ce que la réalité de notre monde peut offrir. Une exploration de l’inconscient et  de l’infinité de l’univers, au confins du spectre invisible des sensations les plus inconnues.",
+    "link": "https://www.indiemusic.fr/daymark-phare/",
+    "imageURL": "/images/press/indiemusic.png"
+  },
+  {
+    "id": "YourMagazine",
+    "blockquote": "Nous sommes partis découvrir le nouvel EP de DAYMARK « PHARE » sorti le 14 juin dernier. D’une rencontre spontanée, ces deux amoureux de l’électro nous proposent un voyage dans leur univers liant cinéma et mélodies.",
+    "link": "https://yourmagazine.fr/daymark-une-musique-aerienne-avec-des-atmospheres-cinematographiques",
+    "imageURL": "/images/press/yourmagazine.png"
+  },
+  {
+    "id": "LaVagueParallele",
+    "blockquote": "La Mosaïque d'aujourd'hui est consacrée à DAYMARK, duo de musique électronique français qui vient de sortir son dernier EP : Phare. Gabriel, moitié du duo, nous a livré ses inspirations.",
+    "link": "https://lavagueparallele.com/mosaique-87-daymark/",
+    "imageURL": "/images/press/lavagueparallele.png"
+  },
+  {
+    "id": "LaParisienneLife",
+    "blockquote": "Rencontre avec Daymark à l’occasion de la parution de leur nouvel EP ! ",
+    "link": "http://www.laparisiennelife.com/2019/06/rencontre-avec-daymark-a-l-occasion-de-la-parution-de-leur-nouvel-ep.html",
+    "imageURL": "/images/press/laparisiennelife.png"
+  },
+  {
+    "id": "BewareMag",
+    "blockquote": "Fort de leur expérience sur la scène pop, électro, mais aussi de composition de B.O de films, le duo a su développer des sonorités denses, ainsi qu’une « électro / post-pop » servie par une imagerie très forte empreinte de cinéma, de rêverie et de surréalisme. ",
+    "link": "https://www.bewaremag.com/clip-daymark-spirit/?fbclid=IwAR00taMaQ0jWR54bqWPhwLTPaoZdcBxxjoklqiclKXuwfbmjXQCp0Z31o2w",
+    "imageURL": "/images/press/bewaremag.png"
   }
 ]
