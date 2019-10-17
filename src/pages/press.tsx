@@ -41,7 +41,7 @@ export default class Press extends React.Component<PressProps> {
                   {
                     data.articles.edges.map((articleEdge: ArticleEdge) => (
                       <div className={ PressStyles.pressItem }>
-                        <a href={ articleEdge.node.link } target="_blank">
+                        <a href={ articleEdge.node.link } target="_blank" rel="noopener noreferrer">
                           <img src={ articleEdge.node.imageURL } alt={ articleEdge.node.id }/>
                         </a>
                         <blockquote id={ articleEdge.node.id }
