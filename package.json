@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "gatsby develop",
     "develop": "gatsby develop",
-    "build": "gatsby build",
+    "build": "gatsby build && cp .htaccess ./public",
     "serve": "gatsby serve"
   },
   "dependencies": {
